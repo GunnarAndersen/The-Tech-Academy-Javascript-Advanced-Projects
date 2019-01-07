@@ -1,0 +1,40 @@
+h1 {
+    font-size: 100px;
+    text-align: center;
+    color: red;
+}
+
+body {
+    position: relative;
+}
+
+.buttons {
+right:    0;
+bottom:   0;
+width: 100%;
+padding: 14px 28px;
+font-size: 16px;
+cursor: pointer;
+display: inline-block;
+}
+.frame {
+border: 5px 5px 5px 5px;
+border-style: solid;
+border-color: red;
+font-size: 30px;
+text-shadow: 2px 2px 3px 4.5px #000;
+text-align: center;
+}
+#cart {
+	opacity: 0;
+	margin: 15px auto;
+	width: 550px;
+    justify-content: flex-start;
+    align-items: stretch;
+	background-color: rgba(244, 245, 247, 0.9);
+	border: 2px solid #080054;
+    box-shadow: 0 0 0 3px rgba(255,255,255, .8);
+    height: 500px;
+    width: 980px;
+   
+}
